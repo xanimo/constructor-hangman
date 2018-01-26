@@ -1,2 +1,3 @@
 # constructor-hangman
-Advanced javascript homework week 11
+
+Hangman built using Node.js and javascript constructors.  Game.js holds words which are exported to main file index.js.  Letter.js renders blank letters, blank spaces, underscores otherwise shows letter.  Word.js imports Letter.js and checks if player's letter choice is correct and appends letters to the current word.  Index.js ties all components together while requiring inquirer for prompting user with questions and is-letter to determine is user types letter instead of word.  Calculates and handles remaining guesses and determines whether the player is ready to play, if guesses are correct or incorrect, letters guessed and if the game is over or still in play. 
